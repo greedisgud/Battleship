@@ -6,7 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <script src="main.js"></script>
-    <title>BattleShip</title>
+    <title>Battle Ship</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="grid grid-user"></div>
+      <div class="grid grid-computer"></div>
+    </div>
+
+    <div class="hidden-info">
+      <button id="start">Start Game</button>
+      <button id="rotate">Rotate Ships</button>
+      <h3 id="displayTurn">User Go</h3>
+      <h3 id="info"></h3>
+    </div>
+
+    <div class="grid-display"></div>
+    <!-- drag user ships from here-->
+  </body>
 </html>
